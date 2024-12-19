@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box2{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+      
+}
+
+.btn_ON{
+        height: 4rem;
+        width: 3rem;
+        outline: none;
+        border: 5px double black;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        margin: 20px;
+    }
+.btn_OFF{
+    height: 4rem;
+    width: 3rem;
+    outline: none;
+    border: 5px double black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin: 20px;
+    background-color: red;
+}
+
+
